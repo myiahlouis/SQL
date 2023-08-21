@@ -1,0 +1,26 @@
+Create table store (id integer primary key, name TEXT, price integer, aisle integer,material text); 
+--create shoe store database
+
+Insert into store VALUES (1, "sneakers", 9.99, 1, "polyester");
+INSERT into store values (2, "boots", 59.99, 2, "leather");
+insert into store values (3, "loafers", 149.99,3, "suede");
+insert into store values (4, "sandals", 17.99, 1, "leather");
+insert into store values (5, "platform boots", 109.99, 1,  "leather");
+insert into store values (6, "flip-flops", 9.99, 2, "plastic");
+insert into store values (7, "Dress Shoe", 59.99, 3, "leather");
+insert into store values (8, "Crocs", 39.99, 1, "plastic");
+insert into store values (9, "Slippers", 9.99, 2, "cotton");
+insert into store values (10, "Combat Boots", 199.99, 3, "Nylon");
+insert into store values (11, "Moccasins", 49.99, 1, "Suede");
+insert into store values (12, "Mule", 29.99, 2, "Leather");
+insert into store values (13, "Oxford Shoes", 69.99, 3, "Canvas");
+insert into store values (14, "Flats", 24.99, 1, "Canvas");
+insert into store values (15, "Chelsea Boots", 79.99, 2, "Canvas");
+*inserting values into database*
+
+SELECT * FROM store order by price asc;
+--ordering by price
+
+
+select sum(price) from store 
+--obtaining total price of items in store
