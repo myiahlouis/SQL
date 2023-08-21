@@ -1,2 +1,1 @@
-# SQL2
-SQL
+Hi, my name is Myiah and welcome to my SQL profile! This code repository contains examples of SQL I've learned and written. Please reach out if you have any questions or comments regarding my profile!
